@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"LegalService","name":"Pallomma Fonseca Advocacia Previdenciária","description":"Advogada previdenciarista com atendimento on-line para todo o Brasil.","areaServed":"BR","telephone":"+55 22 99997-3922","sameAs":["https://www.instagram.com/pallommafonseca_adv/"]}
+{"@context":"https://schema.org","@type":"LegalService","name":"Pallomma Fonseca Advocacia Previdenciária","description":"Advogada previdenciarista com atendimento on-line para todo o Brasil.","areaServed":"BR","telephone":"+55 24 99813-6025","email":"pallommafonseca.advogada@gmail.com","sameAs":["https://www.instagram.com/pallommafonseca_adv/"]}
 </script>
 <style>
 /* Conceito: monograma "P" em losango como fio condutor; seções alternam vinho escuro e creme, foto em arco no topo, uma lupa que revela o que o extrato do INSS esconde. Identidade de marca única (sem tema escuro). */
@@ -184,7 +184,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 
 /* Áreas */
 .areas{background:var(--branco)}
-.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .card{position:relative;display:flex;flex-direction:column;gap:12px;padding:30px 26px 26px;border-radius:var(--r);background:var(--creme);min-width:0;transition:transform .25s var(--ease-out),box-shadow .25s var(--ease-out)}
 .card .mono{width:30px;color:var(--rose)}
 .card h3{font-size:25px;color:var(--bordo);margin-top:6px}
@@ -197,7 +197,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .card.feat .link-wa{color:var(--ouro);border-color:rgba(226,195,166,.4)}
 @media (hover:hover){.card:hover{transform:translateY(-4px);box-shadow:0 22px 40px -28px rgba(74,13,23,.45)}}
 .cards-nav{display:none}
-@media (max-width:1000px){.cards{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:1000px){.cards{grid-template-columns:repeat(2,1fr)}.cards .card.feat{grid-column:1/-1}}
 @media (max-width:640px){
   .cards{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-inline:calc(-1 * max(20px, env(safe-area-inset-left, 0px)));padding-inline:max(20px, env(safe-area-inset-left, 0px));scroll-padding-inline:max(20px, env(safe-area-inset-left, 0px));padding-bottom:6px}
   .cards::-webkit-scrollbar{display:none}
@@ -380,6 +380,7 @@ fieldset.field{border:0;padding:0;margin:0}
 .contact-card ul{list-style:none;margin:22px 0 0;padding:0;display:grid}
 .contact-card li{display:grid;gap:2px;padding:14px 0;border-top:1px solid rgba(226,195,166,.15)}
 .contact-card li span{font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ouro)}
+.contact-card li .mail{font-family:var(--f-display);font-size:clamp(15px,4.4vw,19px);color:var(--branco);text-transform:none;letter-spacing:0;overflow-wrap:anywhere}
 .contact-card li a{font-family:var(--f-display);font-size:22px;color:var(--branco);text-decoration:none;overflow-wrap:anywhere}
 .contact .mono-bg{width:620px;right:-120px;top:40px;opacity:.06;color:var(--ouro)}
 @media (max-width:860px){.contact-grid{grid-template-columns:1fr;gap:40px}}
@@ -523,7 +524,7 @@ fieldset.field{border:0;padding:0;margin:0}
         </div>
         <div class="hero-meta">
           <span>Atendimento on-line para todo o Brasil</span>
-          <span>OAB/RJ <em class="tbc">a confirmar</em></span>
+          <span>OAB/RJ 264.732</span>
         </div>
       </div>
       <div class="arch-box depth">
@@ -540,10 +541,10 @@ fieldset.field{border:0;padding:0;margin:0}
   </section>
 
   <!-- FAIXA ROLANTE -->
-  <div class="marquee" aria-label="Benefícios atendidos: aposentadoria, BPC/LOAS, pensão por morte, auxílio-doença, auxílio-acidente, benefício negado, revisão">
+  <div class="marquee" aria-label="Benefícios atendidos: aposentadoria, BPC/LOAS, pensão por morte, auxílio-doença, auxílio-acidente, auxílio-reclusão, benefício negado, revisão">
     <div class="marquee-track" aria-hidden="true">
-      <span>Aposentadoria</span><span>BPC / LOAS</span><span>Pensão por morte</span><span>Auxílio-doença</span><span>Auxílio-acidente</span><span>Benefício negado</span><span>Revisão</span><span>Perícia do INSS</span>
-      <span>Aposentadoria</span><span>BPC / LOAS</span><span>Pensão por morte</span><span>Auxílio-doença</span><span>Auxílio-acidente</span><span>Benefício negado</span><span>Revisão</span><span>Perícia do INSS</span>
+      <span>Aposentadoria</span><span>BPC / LOAS</span><span>Pensão por morte</span><span>Auxílio-doença</span><span>Auxílio-acidente</span><span>Auxílio-reclusão</span><span>Benefício negado</span><span>Revisão</span><span>Perícia do INSS</span>
+      <span>Aposentadoria</span><span>BPC / LOAS</span><span>Pensão por morte</span><span>Auxílio-doença</span><span>Auxílio-acidente</span><span>Auxílio-reclusão</span><span>Benefício negado</span><span>Revisão</span><span>Perícia do INSS</span>
     </div>
   </div>
 
@@ -596,6 +597,12 @@ fieldset.field{border:0;padding:0;margin:0}
           <h3>Pensão por morte</h3>
           <p>Para a família de quem faleceu, incluindo situações como a do filho maior de 21 anos com deficiência.</p>
           <a class="link-wa" data-wa="pensao" href="#contato">Tenho dúvida sobre pensão <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+        <article class="card">
+          <i class="mono" aria-hidden="true"></i>
+          <h3>Auxílio-reclusão</h3>
+          <p>Benefício para a família de quem era segurado do INSS e está preso em regime fechado, conforme os requisitos de renda.</p>
+          <a class="link-wa" data-wa="reclusao" href="#contato">Quero saber se minha família tem direito <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         </article>
         <article class="card">
           <i class="mono" aria-hidden="true"></i>
@@ -712,14 +719,14 @@ fieldset.field{border:0;padding:0;margin:0}
         <figcaption class="ac-cap">
           <p class="eyebrow">Sobre</p>
           <h2>Pallomma <span class="script">Fonseca</span></h2>
-          <p class="oab-line">Advogada previdenciarista · OAB/RJ <em class="tbc">a confirmar</em></p>
+          <p class="oab-line">Advogada previdenciarista · OAB/RJ 264.732</p>
         </figcaption>
       </figure>
       <div class="about-body">
         <p class="about-lead">Meu trabalho é traduzir as regras do INSS para uma linguagem <span class="script">clara.</span></p>
         <p>Advogada com atuação em Direito Previdenciário, analiso cada histórico com cuidado e mostro a você os caminhos possíveis para o seu caso, do primeiro contato ao resultado do pedido.</p>
-        <p>Formação e especializações: <em class="tbc">a confirmar</em></p>
-        <blockquote class="quote">“Frase da Dra. Pallomma sobre o porquê de trabalhar com previdenciário.”<cite>Pallomma Fonseca <em class="tbc">texto a confirmar</em></cite></blockquote>
+        <p>Graduada em Direito pela Universidade Federal Fluminense (UFF), campus de Macaé/RJ, e inscrita na Ordem dos Advogados do Brasil, OAB/RJ 264.732.</p>
+        <blockquote class="quote">“Por trás de cada benefício, uma história que merece ser ouvida.”<cite>Pallomma Fonseca</cite></blockquote>
         <div class="pills"><span>Linguagem clara</span><span>Sigilo</span><span>Análise caso a caso</span></div>
         <a class="btn btn-bordo" data-wa="sobre" href="#contato"><svg aria-hidden="true"><use href="#i-wa"/></svg>Conversar com a Dra. Pallomma</a>
       </div>
@@ -757,7 +764,6 @@ fieldset.field{border:0;padding:0;margin:0}
         <details><summary>Moro em outro estado. Você pode me atender?</summary><div class="ans">Sim. Os pedidos ao INSS e os processos previdenciários podem ser acompanhados de forma digital, então atendo pessoas de todo o Brasil.</div></details>
         <details><summary>Quais documentos devo separar?</summary><div class="ans">Para começar, normalmente:<ul><li>Documento com foto e CPF</li><li>Comprovante de residência</li><li>Carteira de trabalho</li><li>Extrato CNIS (no app Meu INSS)</li><li>Laudos e exames, se o caso for de incapacidade</li><li>A carta do INSS, se o benefício foi negado</li></ul></div></details>
         <details><summary>O INSS negou meu pedido. Ainda dá tempo?</summary><div class="ans">Existe prazo para recorrer administrativamente, e também pode ser possível fazer um novo pedido ou entrar com ação judicial. O ideal é buscar orientação assim que receber a negativa.</div></details>
-        <details><summary>Como funcionam os honorários?</summary><div class="ans">Os honorários são explicados com transparência na primeira conversa, de acordo com o tipo de caso. <em class="tbc">texto a confirmar</em></div></details>
       </div>
     </div>
   </section>
@@ -780,6 +786,7 @@ fieldset.field{border:0;padding:0;margin:0}
               <option>Auxílio-doença e perícia</option>
               <option>Auxílio-acidente</option>
               <option>Pensão por morte</option>
+              <option>Auxílio-reclusão</option>
               <option>Revisão de benefício</option>
               <option>Benefício por afastamento do trabalho</option>
               <option>Benefício negado</option>
@@ -811,9 +818,9 @@ fieldset.field{border:0;padding:0;margin:0}
         <h3>Atendimento on-line</h3>
         <p>Para pessoas de todo o Brasil, pelo WhatsApp e por videochamada.</p>
         <ul>
-          <li><span>WhatsApp</span><a data-wa="geral" href="#contato">(22) 99997-3922</a></li>
+          <li><span>WhatsApp</span><a data-wa="geral" href="#contato">(24) 99813-6025</a></li>
           <li><span>Instagram</span><a href="https://www.instagram.com/pallommafonseca_adv/" target="_blank" rel="noopener">@pallommafonseca_adv</a></li>
-          <li><span>Horário</span><em class="tbc">a confirmar</em></li>
+          <li><span>E-mail</span><span class="mail">pallommafonseca.advogada@gmail.com</span></li>
         </ul>
       </aside>
     </div>
@@ -830,9 +837,10 @@ fieldset.field{border:0;padding:0;margin:0}
       <div>
         <h4>Contato</h4>
         <ul>
-          <li><a data-wa="geral" href="#contato">WhatsApp (22) 99997-3922</a></li>
+          <li><a data-wa="geral" href="#contato">WhatsApp (24) 99813-6025</a></li>
+          <li>pallommafonseca.advogada@gmail.com</li>
           <li><a href="https://www.instagram.com/pallommafonseca_adv/" target="_blank" rel="noopener">Instagram @pallommafonseca_adv</a></li>
-          <li>OAB/RJ <em class="tbc">a confirmar</em></li>
+          <li>OAB/RJ 264.732</li>
         </ul>
       </div>
       <div>
@@ -857,7 +865,7 @@ fieldset.field{border:0;padding:0;margin:0}
 <script>
 (function(){
   /* Número do WhatsApp: troque só aqui */
-  var WHATS = "5522999973922";
+  var WHATS = "5524998136025";
   var oi = "Olá, Dra. Pallomma! Vim pelo site ";
   var MSG = {
     geral:        oi + "e gostaria de entender meu caso previdenciário.",
@@ -866,6 +874,7 @@ fieldset.field{border:0;padding:0;margin:0}
     pericia:      oi + "e tenho uma dúvida sobre auxílio-doença e perícia do INSS.",
     acidente:     oi + "e queria entender se tenho direito ao auxílio-acidente.",
     pensao:       oi + "e tenho uma dúvida sobre pensão por morte.",
+    reclusao:     oi + "e gostaria de tirar uma dúvida sobre um benefício para dependentes.",
     revisao:      oi + "e gostaria de saber se meu benefício pode ser revisado.",
     afastamento:  oi + "e gostaria de tirar uma dúvida sobre benefício por afastamento do trabalho.",
     negado:       oi + "e meu benefício foi negado pelo INSS. Queria entender o que fazer.",
